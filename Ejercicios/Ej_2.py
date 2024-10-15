@@ -5,3 +5,6 @@ try:
     for proc in psutil.process_iter():
         processName = proc.name()
         processID = proc.pid
+
+except:
+    print("Error")
