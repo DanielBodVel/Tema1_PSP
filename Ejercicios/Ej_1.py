@@ -1,3 +1,7 @@
+#Listar todos los procesos activos:
+#El programa debe imprimir el nombre del proceso y su identificador (PID).
+#Si el proceso es el Bloc de notas (Notepad.exe), debe imprimir un mensaje especial indicando que el Bloc de notas está en ejecución.
+
 import psutil
 
 try:
@@ -6,7 +10,7 @@ try:
         processID = proc.pid
 
         print(processName, ' --> ', processID)
-        if processName == "notepad.exe":
+        if processName == "Notepad.exe":
             print("Bloc de notas está en ejecución")
 
 except psutil.NoSuchProcess:
