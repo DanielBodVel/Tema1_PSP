@@ -1,6 +1,6 @@
-#Listar todos los procesos activos:
-#El programa debe imprimir el nombre del proceso y su identificador (PID).
-#Si el proceso es el Bloc de notas (Notepad.exe), debe imprimir un mensaje especial indicando que el Bloc de notas está en ejecución.
+# Listar todos los procesos activos:
+# El programa debe imprimir el nombre del proceso y su identificador (PID).
+# Si el proceso es el Bloc de notas (Notepad.exe), debe imprimir un mensaje especial indicando que el Bloc de notas está en ejecución.
 
 import psutil
 
