@@ -1,0 +1,5 @@
+¿Qué ventajas y desventajas tiene la ejecución de programas de manera síncrona versus asíncrona?
+    
+¿Por qué es importante manejar las excepciones al trabajar con procesos?
+
+¿Qué tipo de problemas se pueden presentar al comunicarse entre procesos? ¿Cómo los has solucionado?
