@@ -1,5 +1,5 @@
+# PARTE 3: Comunicación Interprocesos con Pipes
 import os
-import sys
 
 
 def main():
