@@ -4,6 +4,7 @@ import subprocess
 import win32clipboard
 
 
+# Creo un método para la conexión con el servidor ftp del ejemplo
 def descargaDatos():
     ftp = subprocess.Popen('ftp', shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
@@ -17,6 +18,7 @@ def descargaDatos():
     return readme
 
 
+# Creo un método para pasar el archivo descargado al portapapeles
 def portapapeles(readme):
     win32clipboard.OpenClipboard()
 
@@ -34,5 +36,6 @@ def portapapeles(readme):
     win32clipboard.CloseClipboard()
 
 
+#Invoco el main y los 2 métodos
 if __name__ == '__main__':
     portapapeles(descargaDatos())
