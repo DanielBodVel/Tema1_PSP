@@ -40,4 +40,4 @@ if __name__ == '__main__':
         tiempo_ejec = fin_temporizador - inicio_temporizador  # Restamos el fin menos el principio para ver el tiempo de ejecución
         print("El tiempo de ejecución fue: ", tiempo_ejec, " seg")  # Lo mostramos
     else:
-        print("Nº no válido") # Si el nº que ha metido no es válido
+        print("Nº no válido")  # Si el nº que ha metido no es válido
